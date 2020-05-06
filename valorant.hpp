@@ -3,8 +3,13 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Wed May  6 16:17:53 2020
-Version: 0.49*/
+Timestamp: Wed May  6 16:22:10 2020
+Version: 0.49
+*/
+
+std::ptrdiff_t engine = 0x61E9AF0;
+std::ptrdiff_t world = 0x61EC228;
+
 
 std::ptrdiff_t root_component = 0x238;
 std::ptrdiff_t player_state = 0x3c8;
