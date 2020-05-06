@@ -7,8 +7,12 @@ Timestamp: Wed May  6 16:22:10 2020
 Version: 0.49
 */
 
+
+
 std::ptrdiff_t engine = 0x61E9AF0;
 std::ptrdiff_t world = 0x61EC228;
+
+std::ptrdiff_t korean_world = 0x61EE2A8;
 
 
 std::ptrdiff_t root_component = 0x238;
