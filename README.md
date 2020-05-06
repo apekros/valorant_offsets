@@ -1,3 +1,3 @@
 # valorant_offsets
 
-up to date offsets for VALORANT
+automatically up to date offsets for VALORANT
