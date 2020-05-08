@@ -3,19 +3,14 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Wed May  6 16:22:10 2020
+Timestamp: Wed May  9
 Version: 0.49
 */
 
 
 
-std::ptrdiff_t engine = 0x61E9AF0;
-std::ptrdiff_t world = 0x61EC228;
-
-#ifdef KOREA
-world = 0x61EE2A8;
-engine = 0x61EBB70;
-#endif
+std::ptrdiff_t engine = 0x61EBB70;
+std::ptrdiff_t world = 0x61EE2A8;
 
 std::ptrdiff_t root_component = 0x238;
 std::ptrdiff_t player_state = 0x3c8;
