@@ -3,7 +3,7 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Sat May  9 16:35:16 2020
+Timestamp: Sat May  9 16:35:17 2020
 Version: 0.49
 */
 
