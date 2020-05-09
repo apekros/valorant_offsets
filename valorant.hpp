@@ -3,15 +3,21 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Sat May  9 16:35:17 2020
+Timestamp: Sat May  9 16:55:49 2020
 Version: 0.49
 */
 
+/*
+Globals
+*/
 std::ptrdiff_t g_engine = 0x61ebb70;
 std::ptrdiff_t world = 0x61ee2a8;
 std::ptrdiff_t g_objects = 0x60c7538;
 std::ptrdiff_t g_names = 0x6090000;
 
+/*
+Classes
+*/
 std::ptrdiff_t root_component = 0x238;
 std::ptrdiff_t persistent_level = 0x38;
 std::ptrdiff_t owning_game_instance = 0x190;
