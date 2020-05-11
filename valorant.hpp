@@ -28,3 +28,9 @@ std::ptrdiff_t damage_handler = 0xa20;
 std::ptrdiff_t cached_life = 0x190;
 std::ptrdiff_t relative_location = 0x184;
 std::ptrdiff_t relative_rotation = 0x190;
+
+/*
+Other
+*/
+std::ptrdiff_t actor_count = 0xA8;
+std::ptrdiff_t actor_data = 0xA0;
