@@ -37,6 +37,8 @@ Other
 std::ptrdiff_t actor_count = 0xA8;
 std::ptrdiff_t actor_data = 0xA0;
 
+std::ptrdiff_t fn_free = 0x1B759B0;
+
 /*
 Regions
 */
@@ -47,4 +49,5 @@ g_objects = 0x6156138;
 g_names = 0x611ec00;
 damage_handler = 0xa50;
 static_mesh = 0x548;
+fn_free = 0x1BCDBB0;
 #endif
