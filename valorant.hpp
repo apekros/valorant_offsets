@@ -45,5 +45,4 @@ world = 0x627ced8;
 g_objects = 0x6156138;
 g_names = 0x611ec00;
 damage_handler = 0xa50;
-mesh_component = 0x408;
 #endif
