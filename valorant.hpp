@@ -3,8 +3,8 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Sat May  9 16:55:49 2020
-Version: 0.49
+Timestamp: Sat May  13 02:51:20 2020
+Version: 0.49/0.50 NA
 */
 
 /*
@@ -14,6 +14,7 @@ std::ptrdiff_t g_engine = 0x61ebb70;
 std::ptrdiff_t world = 0x61ee2a8;
 std::ptrdiff_t g_objects = 0x60c7538;
 std::ptrdiff_t g_names = 0x6090000;
+
 
 /*
 Classes
@@ -34,3 +35,15 @@ Other
 */
 std::ptrdiff_t actor_count = 0xA8;
 std::ptrdiff_t actor_data = 0xA0;
+
+/*
+Regions
+*/
+#ifdef NA
+g_engine = 0x61ebb70;
+world = 0x627a7a0;
+g_objects = 0x6156138;
+g_names = 0x611ec00;
+damage_handler = 0xa50;
+
+#endif
