@@ -30,6 +30,7 @@ std::ptrdiff_t cached_life = 0x190;
 std::ptrdiff_t relative_location = 0x184;
 std::ptrdiff_t relative_rotation = 0x190;
 std::ptrdiff_t mesh_component = 0x408;
+std::ptrdiff_t static_mesh = 0x528;
 /*
 Other
 */
@@ -45,4 +46,5 @@ world = 0x627ced8;
 g_objects = 0x6156138;
 g_names = 0x611ec00;
 damage_handler = 0xa50;
+static_mesh = 0x548;
 #endif
