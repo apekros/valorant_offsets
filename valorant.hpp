@@ -40,8 +40,8 @@ std::ptrdiff_t actor_data = 0xA0;
 Regions
 */
 #ifdef NA
-g_engine = 0x61ebb70;
-world = 0x627a7a0;
+g_engine = 0x627a7a0;
+world = 0x627ced8;
 g_objects = 0x6156138;
 g_names = 0x611ec00;
 damage_handler = 0xa50;
