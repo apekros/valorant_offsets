@@ -21,7 +21,7 @@ Classes
 */
 std::ptrdiff_t root_component = 0x238;
 std::ptrdiff_t persistent_level = 0x38;
-std::ptrdiff_t owning_game_instance = 0xFA0;
+std::ptrdiff_t owning_game_instance = 0x190;
 std::ptrdiff_t player_state = 0x3c8;
 std::ptrdiff_t team_component = 0x5b0;
 std::ptrdiff_t team = 0x118;
