@@ -3,15 +3,16 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Sat June  2 11:51:20 2020
+Timestamp: Sat June  4 13:34:20 2020
 Version: 1.0
 */
 
 /*
 Globals
 */
-std::ptrdiff_t g_engine = 0x627a7a0; //outdated
-std::ptrdiff_t world = 0x627ced8; //outdated
+std::ptrdiff_t world_xor_1 = 0x5d07df8
+std::ptrdiff_t world_xor_2 = 0x5d07dd8;
+std::ptrdiff_t world_ptr = read(world_xor_1^world_xor_2);
 std::ptrdiff_t g_objects = 0x631BBF0;
 std::ptrdiff_t g_names = 0x62E2B40;
 
@@ -31,12 +32,11 @@ std::ptrdiff_t relative_location = 0x184;
 std::ptrdiff_t relative_rotation = 0x190;
 std::ptrdiff_t mesh_component = 0x408;
 
-std::ptrdiff_t static_mesh = 0x548; //outdated
+std::ptrdiff_t static_mesh = 0x548; 
 /*
 Other
 */
 std::ptrdiff_t actor_count = 0xA8;
 std::ptrdiff_t actor_data = 0xA0;
 
-std::ptrdiff_t fn_free = 0x1BCDBB0; //outdated
 
