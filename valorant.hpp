@@ -10,8 +10,8 @@ Version: 1.0
 /*
 Globals
 */
-std::ptrdiff_t world_xor_1 = 0x5d07df8
-std::ptrdiff_t world_xor_2 = 0x5d07dd8;
+std::ptrdiff_t world_xor_1 = read(0x5d07df8);
+std::ptrdiff_t world_xor_2 = read(0x5d07dd8);
 std::ptrdiff_t world_ptr = read(world_xor_1^world_xor_2);
 std::ptrdiff_t g_objects = 0x631BBF0;
 std::ptrdiff_t g_names = 0x62E2B40;
