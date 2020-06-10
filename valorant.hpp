@@ -3,18 +3,21 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Sat June  4 13:34:20 2020
-Version: 1.0
+Timestamp: Sat June  10 14:10:00 2020
+Version: 1.01
 */
 
 /*
 Globals
 */
-std::ptrdiff_t world_xor_1 = read(0x5d07df8);
-std::ptrdiff_t world_xor_2 = read(0x5d07dd8);
+std::ptrdiff_t world_xor_1 = read(image_base + 0x5f5c298);
+std::ptrdiff_t world_xor_2 = read(image_base + 0x5F5c2b8);
 std::ptrdiff_t world_ptr = read(world_xor_1^world_xor_2);
-std::ptrdiff_t g_objects = 0x631BBF0; //deref twice
-std::ptrdiff_t g_names = 0x62E2B40;
+
+std::ptrdiff_t world_ptr_2 = read(read(read(image_base + 0x66bd8d8))+0x100);
+
+std::ptrdiff_t g_objects = 0x657ce80; //deref twice
+std::ptrdiff_t g_names = 0x6543dC0;
 
 
 /*
@@ -38,5 +41,10 @@ Other
 */
 std::ptrdiff_t actor_count = 0xA8;
 std::ptrdiff_t actor_data = 0xA0;
+
+
+//Decryption names
+std::ptrdiff_t xor1 = 0x6576c60;
+std::ptrdiff_t xor2 = 0x6576c78;
 
 
