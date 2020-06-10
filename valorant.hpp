@@ -3,7 +3,7 @@
 #include <cstddef>
 
 /*
-Valorant Offsets Repository [MENTION=2680914]apekros[/MENTION]
+Valorant Offsets Repository @apekros
 Timestamp: Wed June  10 14:10:00 2020
 Version: 1.01
 */
