@@ -1,8 +1,9 @@
+
 #pragma once
 #include <cstddef>
 
 /*
-Valorant Offsets Repository @apekros
+Valorant Offsets Repository [MENTION=2680914]apekros[/MENTION]
 Timestamp: Sat June  10 14:10:00 2020
 Version: 1.01
 */
@@ -36,15 +37,18 @@ std::ptrdiff_t relative_rotation = 0x190;
 std::ptrdiff_t mesh_component = 0x408;
 
 std::ptrdiff_t static_mesh = 0x548; 
+
 /*
 Other
 */
+
 std::ptrdiff_t actor_count = 0xA8;
 std::ptrdiff_t actor_data = 0xA0;
 
 
-//Decryption names
+/*
+Names Decryption
+*/
+
 std::ptrdiff_t xor1 = 0x6576c60;
 std::ptrdiff_t xor2 = 0x6576c78;
-
-
