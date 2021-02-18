@@ -3,7 +3,7 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Thu Feb 18 16:18:24 2021
+Timestamp: Thu Feb 18 16:33:16 2021
 Version: 4.24.3.0
 */
 
@@ -20,4 +20,9 @@ std::ptrdiff_t team = 0xf0;
 std::ptrdiff_t damage_handler = 0xaa0;
 std::ptrdiff_t cached_life = 0x188;
 std::ptrdiff_t relative_location = 0x15c;
-std::ptrdiff_t relation_rotation = 0x168;
+std::ptrdiff_t relative_rotation = 0x168;
+std::ptrdiff_t player_controller = 0x38;
+std::ptrdiff_t acknowledged_pawn = 0x438;
+std::ptrdiff_t player_camera_manager = 0x450;
+std::ptrdiff_t camera_cache_private = 0x1ee0;
+std::ptrdiff_t control_rotation = 0x418;
