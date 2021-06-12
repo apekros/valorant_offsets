@@ -3,14 +3,15 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Wed Jun  9 22:14:16 2021
+Timestamp: Sat Jun 12 14:12:12 2021
 Version: 4.25.4.0
 */
 
 /*
 Classes
 */
-std::ptrdiff_t mesh_component = 0x550;
+std::ptrdiff_t bone_component = 0x550;
+std::ptrdiff_t mesh_component = 0x410;
 std::ptrdiff_t root_component = 0x210;
 std::ptrdiff_t persistent_level = 0x38;
 std::ptrdiff_t owning_game_instance = 0x1a8;
