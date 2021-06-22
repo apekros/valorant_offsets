@@ -3,9 +3,12 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Sat Jun 12 14:12:12 2021
+Timestamp: Wed Jun 23 00:38:20 2021
 Version: 4.25.4.0
 */
+
+std::ptrdiff_t uworld_key = 0x86d9ff8;
+std::ptrdiff_t uworld_state = 0x86d9fc0;
 
 /*
 Classes
@@ -18,8 +21,8 @@ std::ptrdiff_t owning_game_instance = 0x1a8;
 std::ptrdiff_t player_state = 0x3d0;
 std::ptrdiff_t team_component = 0x580;
 std::ptrdiff_t team = 0xf8;
-std::ptrdiff_t damage_handler = 0x940;
-std::ptrdiff_t cached_life = 0x190;
+std::ptrdiff_t damage_handler = 0x928;
+std::ptrdiff_t cached_life = 0x1b0;
 std::ptrdiff_t relative_location = 0x164;
 std::ptrdiff_t relative_rotation = 0x170;
 std::ptrdiff_t player_controller = 0x38;
