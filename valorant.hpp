@@ -3,12 +3,12 @@
 
 /*
 Valorant Offsets Repository @apekros
-Timestamp: Wed Dec 15 14:02:09 2021
+Timestamp: Fri Dec 17 11:02:12 2021
 Version: 4.25.4.0
 */
 
-std::ptrdiff_t uworld_state = 0x8e7d140;
-std::ptrdiff_t uworld_key = 0x8e7d178;
+std::ptrdiff_t uworld_state = 0x8e7d100;
+std::ptrdiff_t uworld_key = 0x8e7d138;
 /*
 Classes
 */
